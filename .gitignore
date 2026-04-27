@@ -1,0 +1,39 @@
+# Secrets
+.env
+
+# Python environments
+.venv/
+venv/
+env/
+et/
+ET/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector store (auto-regenerates on first run)
+chroma_db/
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Generated outputs (charts regenerate at runtime)
+output/
+
+# Logs
+*.log
+
+# Large PDFs — too big for GitHub, user provides their own
+knowledge_base/*.pdf
+knowledge_base/~$*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
